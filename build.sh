@@ -16,7 +16,7 @@ mv $CONTRACT_NAME.wasm ./$BUILD_DIR/$BUILD_DIR.wasm
 mv $CONTRACT_NAME.abi ./$BUILD_DIR/$BUILD_DIR.abi
 echo "Have moved built result into ./$BUILD_DIR for deploy.sh to deploy"
 
-echo "Don't forget to do the following before use ./deploy.sh"
+echo "Don't forget to do the following before use \"./deploy.sh eosio.token\""
 echo "===================================="
 echo "source ~/eos-script/nodeos/use-eos-script.sh"
 echo "createAccount.sh eosio.token"
