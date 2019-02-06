@@ -12,6 +12,9 @@ if [ $# -eq 1 ]; then
 	ACCOUNT_NAME=$1
 fi
 
+DEPLOY_COMMANDS=$(echo -e "cleos set contract $ACCOUNT_NAME $(dirname $0)/$BUILD_DIR -p $ACCOUNT_NAME@active --abi")
 echo "Strat to deploy built result in ./$BUILD_DIR to the account $ACCOUNT_NAME"
-cleos set contract $ACCOUNT_NAME $(dirname $0)/$BUILD_DIR -p $ACCOUNT_NAME@active --abi
+echo "$DEPLOY_COMMANDS"
+eval $DEPLOY_COMMANDS
+#cleos set contract $ACCOUNT_NAME $(dirname $0)/$BUILD_DIR -p $ACCOUNT_NAME@active --abi
 
