@@ -9,3 +9,6 @@ usage-IssueToken.md
 
 ## Transfer Tokens
 usage-TransferTokens.md
+
+## Run demo 
+./demo-usage.sh

@@ -20,3 +20,5 @@ eval $DEPLOY_COMMANDS
 
 echo "Look more detail about how to interact to eosio.token by read usage.md"
 cat usage.md
+
+echo "You can also run ./demo-usage.sh to run real demo for usage.md"
