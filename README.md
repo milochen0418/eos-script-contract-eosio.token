@@ -15,7 +15,7 @@ https://github.com/milochen0418/eos-script
 Open another termianl.   
 cd ~/eos-script/installation   
 $ ./envReboot.sh  
-Then you can see nodeos is running and you can see it running log  
+Then you can see nodeos is running and you can see its running log  
 
 
 
