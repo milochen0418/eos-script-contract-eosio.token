@@ -18,5 +18,5 @@ echo "$DEPLOY_COMMANDS"
 eval $DEPLOY_COMMANDS
 #cleos set contract $ACCOUNT_NAME $(dirname $0)/$BUILD_DIR -p $ACCOUNT_NAME@active --abi
 
-
-echo "Please read USAGE.md to learn how to interact to the smart contract eosio.token"
+echo "Look more detail about how to interact to eosio.token by read usage.md"
+cat usage.md
