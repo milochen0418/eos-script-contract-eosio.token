@@ -18,7 +18,13 @@ echo "$DEPLOY_COMMANDS"
 eval $DEPLOY_COMMANDS
 #cleos set contract $ACCOUNT_NAME $(dirname $0)/$BUILD_DIR -p $ACCOUNT_NAME@active --abi
 
-echo "Look more detail about how to interact to eosio.token by read usage.md"
-cat usage.md
-
 echo "You can also run ./demo-usage.sh to run real demo for usage.md"
+echo "$ createAccount.sh alice"
+echo "$ createAccount.sh bob"
+echo "$ ./demo-usage.sh"
+echo " "
+
+echo "Look more detail about how to interact to eosio.token by read usage.md"
+echo "$ cat usage.md"
+
+
